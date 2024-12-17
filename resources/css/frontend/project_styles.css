@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,800&family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #E5F4F9 !important; */
+    height: 100%;
+    margin: 0;
+}
+
+.logo_image {
+    max-height: 100px;
+    max-width: 300px;
+}
+
+.title-text {
+    font-size: 48px;
+    /* font: normal normal 800 48px/60px Overpass; */
+    letter-spacing: 0px;
+    /* color: #002B5C; */
+    opacity: 1;
+}
+
+.page-heading {
+    font-size: 28px;
+    /* font: normal normal normal 28px/37px PT Serif; */
+    letter-spacing: 0px;
+    /* color: #002B5C; */
+    opacity: 1;
+}
+
+.welcome-page-heading {
+    font-size: 28px;
+    /* font: normal normal normal 28px/37px PT Serif; */
+    letter-spacing: 0px;
+    /* color: #002B5C; */
+    opacity: 1;
+}
+
+.advice-description {
+    font-size: 20px;
+    text-align: left;
+    /* font: normal normal normal 20px/30px PT Serif; */
+    letter-spacing: 0px;
+    color: #002B5C;
+    opacity: 1;
+}
+
+.circle-button {
+    /* background: #D60C8C 0% 0% no-repeat padding-box; */
+    opacity: 1;
+    display: inline-block;
+    padding: 80px 53px;
+    border-radius: 50%;
+    /* color: #fff; */
+    /* font: normal normal 800 54px/82px Overpass; */
+    letter-spacing: 0px;
+    font-size: 54px;
+    width: 240px;
+    height: 240px;
+}
+
+.card-title {
+    font-size: 24px;
+    text-align: left;
+    /* font: normal normal 800 24px/28px Overpass; */
+    letter-spacing: -0.24px;
+    color: #000000;
+    opacity: 1;
+}
+
+.card-text {
+    font-size: 15px;
+    text-align: left;
+    /* font: normal normal normal 15px/19px PT Serif; */
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.card-style {
+    border-radius: 15px !important;
+    opacity: 1;
+}
+
+/* .footer{
+    position: relative;
+    display: block;
+    top: 5vh;
+} */
+
+
+.nav {
+    background: #fff;
+    height: 48px;
+}
+
+.background {
+    background: #fff;
+    height: 48px;
+}
+
+@media (max-width: 321px) {
+    .start-button {
+        max-width: 302px !important;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+}
+
+.product-card {
+    height: 525px;
+
+}
+
+.cart-max-width {
+    max-width: 285px !important;
+}
+
+@media (min-width: 993px) {
+    .start-button {
+        margin-bottom: -22px; 
+    }
+}
+
+@media (max-width: 992px) {
+    .cart-max-width {
+        max-width: 390px !important;
+    }
+
+    .start-button {
+        margin-bottom: -35px;
+        /* margin-left: -10px; */
+        width: 325px !important;
+
+    }
+
+    .start-button-advice {
+        min-width: 302px;
+        font-size: 12px !important;
+        padding: 10px 20px 10px 20px;
+        border-radius: 27px;
+        top: 1160px;
+        left: 550px;
+        height: 54px;
+        line-height: 31px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .product-card {
+        height: 595px;
+    }
+
+    /* .buttons label {
+        font-size: 9px !important;
+    } */
+
+    .question-title {
+        font-size: 30px !important;
+    }
+
+    .title-text {
+        font-size: 30px !important;
+    }
+
+    .page-heading {
+        font-size: 25px !important;
+    }
+
+    .welcome-page-heading {
+        font-size: 25px;
+    }
+
+    .background {
+        background: #fff;
+        height: 48px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 900;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+.icons {
+    margin: auto;
+}
+
+.icons a {
+    color: #717171
+}
+
+.home-icon {
+    color: #D60C8C;
+    font-size: 20px;
+}
+
+.start-button {
+    align-self: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 27px;
+    right: 20px;
+    width: 420px;
+    height: 54px;
+    cursor: pointer;
+    margin-left: 9px;
+
+}
+
+
+
+@media (min-width: 992px) {
+    .start-button-advice {
+        padding: 10px 20px 10px 20px;
+        min-width: 360px;
+        border-radius: 27px;
+        top: 1160px;
+        left: 550px;
+        height: 54px;
+        line-height: 31px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-bottom: 2px;
+
+    }
+}
+
+.start-button:hover {
+    cursor: pointer;
+}
+
+
+.btn-more-info {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btn-bg-pink {
+    background: #D60C8C;
+}
+
+/* .btn-bg-pink:hover {
+    background: #002B5C;
+}
+
+.btn-more-info:hover {
+    background: #002B5C;
+} */
+
+.survey-header-logo {
+    /* max-width: 100px;
+    max-height: 45px;
+    padding: 5px 0; */
+    top: 11px;
+    left: 135px;
+    /* width: 191px; */
+    height: 44px;
+}
+
+.logo img {
+    max-width: 300px;
+    max-height: 100px;
+}
+
+.buttons input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+}
+
+.buttons label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 31px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* .slick-slide img{
+    height: 250px !important;
+} */
+
+@media (min-width: 992px) {
+    .card_image {
+        height: 257px !important;
+        width: 257px !important;
+    }
+}
+@media (max-width: 992px) {
+    .start-button {
+        width: 100% !important;
+        margin-left: 2px;
+      
+    }
+
+    .start-button-advice {
+        min-width: 100%;
+       
+    }
+
+    .buttons label {
+        font-size: 14px;
+    }
+
+    .question-title {
+        font-size: 24px !important;
+    }
+    input[type=checkbox] {
+        accent-color: #000000;
+    }
+}
+
+
+/*  Styles to prevent hover effect for iOS devices  */
+/* @media only screen and (hover: none) {
+    .buttons:active, .start-button:hover, label:hover {
+      background-color: initial;
+    }
+}  */
